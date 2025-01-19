@@ -1,0 +1,237 @@
+.header{
+  display: grid;
+  grid-template-columns: 1fr 148px 1fr;
+  align-items: center;
+  padding: 92px 50px 96px 50px;
+}
+.header__links-list{
+  display: flex;
+  gap: 31.48px;
+  font-size: 18px;
+  line-height: 21.14px;
+}
+.header__links-list-item{
+  list-style: circle;
+}
+.text_link:hover{
+  color: white;
+  background-color: black;
+}
+.header__links-list-item_no-bullit{
+  list-style: none;
+}
+.header__links-list-item_no-bullit a{
+  text-decoration: none;
+}
+.header__logo{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+}
+.header__logo-image {
+  width: 100%;
+}
+.address{
+  display: flex;
+  flex-direction: column;
+  justify-self: end; 
+  font-size: 18px;
+  line-height: 24.3px;
+
+}
+
+
+.cover{
+  position: relative;
+  height: 757px;
+  background-image: url(/images/lotus-flower.png) ;
+}
+.overlay{
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 60%;
+  background-color: black;
+}
+.cover__title{
+  position: relative;
+  z-index: 2;
+  padding: 165px 50px 0px 50px;
+  color: white;
+  font-size: 100px;
+  line-height: 115px;
+}
+.aligned-text{
+  display: block;
+  letter-spacing: 3px;
+}
+.aligned-text_center{
+  text-align: center;
+  margin-right: 61px;
+  margin-top: 10px;
+}
+.aligned-text_right{
+  text-align: right;
+  margin-top: 5px;
+}
+.no-letter-spacing{
+  letter-spacing: 0px;
+}
+.cover__description{
+  z-index: 2;
+  display: grid;
+  padding: 106px 50px 0px 50px;
+  grid-template-columns: 1fr auto;
+}
+.cover__description-text{
+  z-index: 2;
+  margin-top: 12px;
+  word-spacing:18px;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: white;
+}
+.bet-button{ 
+  z-index: 2;
+  padding: 12px 32px 11px 31px;
+  color: white;
+  border: 1px currentColor solid;
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  line-height: 25.83px;
+  background-color: transparent;
+}
+.bet-button:hover{
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 0, 0)
+}
+
+
+.lots{
+  padding: 180px 24px 0px 24px;
+}
+.lots__heading{
+  padding-left: 40px;
+  padding-bottom: 27px;
+  font-size:40px;
+  line-height: 46.96px;
+  text-transform: uppercase;
+}
+.lots__card-list{
+  display: grid;
+  list-style: none;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:25px;
+}
+.card-link {
+  display: block;
+  height: 100%;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: space-between;
+  position: relative;
+  width:334px;
+  height:596px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+.card__title{
+  position: relative;
+  font-size: 22px;
+  line-height: 26.4px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin: 48px 40px 0px 40px;
+  z-index: 2;
+}
+.card__text{
+  position: relative;
+  padding: 0px 40px 48px 40px;
+  font-size: 20px;
+  line-height: 24px;
+  z-index: 2;
+}
+
+.card_type_film{
+  background-image: url(/images/film.jpg);
+}
+.card_type_book{
+  background-image: url(/images/book.jpg);
+}
+.card_type_picture{
+  background-image: url(/images/picture.jpg);
+}
+.lots__look-more-link{
+  margin-left: 40px;
+  font-size: 20px;
+}
+.about{
+  display: grid;
+  height: 595px;
+  grid-template-columns: 334px auto;
+  padding:0 50px;
+  margin-bottom: 360px;
+}
+.about__logo{
+  display: flex;
+  justify-content: center;
+  width: 240px;
+  height: 240px;
+  margin-left: 20px;
+  margin-top: 155px;
+}
+.about__logo-image{
+  width: 240px;
+  height: 240px;
+}
+.about__title{
+  margin-top: 256px;
+  font-size: 40px;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+}
+.about__text{
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  height: 180px;
+  margin-top: 180px;
+}
+
+.footer-address{
+  justify-self: start; 
+}
+.footer__menu-list{
+  font-size: 18px;
+  list-style: none;
+  text-align: center;
+}
+.footer__menu-link {
+  font-size: 18px;
+  line-height: normal;
+  text-underline-position: under;
+}
+.footer__social-list{
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  margin-left: 25px;
+  list-style: none;
+}
+.footer__menu-link_active{
+  text-decoration: none;
+}
+
