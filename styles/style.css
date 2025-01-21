@@ -37,8 +37,8 @@
   flex-direction: column;
   justify-self: end;
   width: 240px;
-  height: 98px;
   font-size: 18px;
+  font-style: normal;
   line-height: 24.3px;
 
 }
@@ -48,6 +48,8 @@
   position: relative;
   min-height: 757px;
   background-image: url(../images/lotus-flower.png) ;
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 .overlay {
@@ -75,10 +77,12 @@
   margin-top: 20px;
   margin-right: 61px;
   margin-left: 44.5px;
+  letter-spacing: 4.5px;
   text-align: center;
 }
 .aligned-text_right {
   margin-top: 20px;
+  letter-spacing: 3px;
   text-align: right;
 }
 .no-letter-spacing {
@@ -100,15 +104,18 @@
   word-spacing:18px;
 }
 
-.bet-button { 
-  z-index: 2;
+.bet-button {
+  z-index: 2; 
+  width: 256px;
   margin-left: 107px ;
   border: 1px currentColor solid;
   padding: 12px 32px 11px 31px;
   color: white;
   font-family: Raleway, sans-serif;
+  font-weight: 500;
   font-size: 22px;
   line-height: 25.83px;
+  text-transform: uppercase;
   background-color: transparent;
 }
 
@@ -184,7 +191,7 @@
 .about {
   display: grid;
   grid-template-columns: 334px auto;
-  min-height: 595px;
+  margin-bottom: 155px;
   padding:0 50px;
 }
 .about__logo {
@@ -217,13 +224,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
-  min-height: 180px;
-  margin-top: 180px;
 }
 
 .footer-address {
   justify-self: start;
   margin-left: 50px;
+  font-style: normal;
 
 }
 .footer__menu-list {
